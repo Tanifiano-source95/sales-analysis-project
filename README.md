@@ -43,6 +43,7 @@ value of £574.
 1. Electronics — 8,233 units sold
 2. Sports — 5,776 units sold
 3. Fashion — 5,733 units sold
+   ![Excel Sales Dashboard](International sales Trend.PNG)
 
 #### 4. Revenue by Country (SQL Analysis)
 1. Benin — 1,422,154 (Top Market)
