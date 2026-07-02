@@ -1,59 +1,109 @@
-# sales-analysis-project
-My Data Analytics learning journey - Excel, SQL, Python, Power BI
-📊 Data Analysis Project (SQL + Excel + Power BI)
+## Project 06 - Sales Analysis (Team Project)
 
-📌 Project description
+### Team
+- Tanifiano Regis : SQL data analysis
+- [Victoria Hector] : Excel + Power BI dashboards
 
-This project is a team-driven data analysis work.
+### Tools Used
+- DB Browser for SQLite
+- SQL (SELECT, JOIN, GROUP BY, SUM,
+  ORDER BY, LIMIT, CASE WHEN, Subqueries)
+- Microsoft Excel
+- Power BI
 
-The objective is to analyze a sales dataset and create useful insights.
+### Database Structure
+4 tables — 10,000+ records :
+- customers (300 records)
+- products (120 records)
+- orders (3,000 records)
+- order_items (10,000 records)
 
-⸻
+---
 
-👥 Team
+### Key Findings
 
-* Me: SQL data analysis
+#### 1. Sales Performance by Month
+July is the strongest month with £618,448
+in total revenue, followed by April (£526,174)
+and March (£511,847).
+The data reveals a clear mid-year buying surge
+that represents a major opportunity for
+targeted marketing campaigns.
 
-* My friend: Excel + Power BI dashboards
+#### 2. Best Performing Category
+Electronics is the absolute powerhouse :
+- Highest revenue per product (£8,050)
+- Most units sold (8,233 units)
+- Dominates in every single country
+This category is the primary anchor of the
+entire business with an average order
+value of £574.
 
-⸻
+#### 3. Top 3 Categories by Volume
+1. Electronics — 8,233 units sold
+2. Sports — 5,776 units sold
+3. Fashion — 5,733 units sold
 
-📁 Project content
+#### 4. Revenue by Country (SQL Analysis)
+1. Benin — 1,422,154 (Top Market)
+2. Ghana — 1,342,160 (Top Market)
+3. Togo — 1,188,067 (Top Market)
+4. Nigeria — 915,110 (Growing Market)
+5. France — 873,730 (Growing Market)
 
-* dataset.csv: raw data (100 lines)
+#### 5. Customer Volume by Country (Power BI)
+1. Benin — 11,541 customers
+2. Ghana — 10,916 customers
+3. Togo — 10,267 customers
 
-* sql_queries.sql: SQL queries
+#### 6. Top 5 Products by Revenue (SQL)
+1. Product_111 — 119,031
+2. Product_81 — 118,894
+3. Product_6 — 112,633
+4. Product_97 — 108,447
+5. Product_17 — 105,000
 
-* excel_dashboard.xlsx: Excel analysis
+---
 
-* powerbi_dashboard.pbix: Power BI dashboard
+### Strategic Recommendations
 
-⸻
+1. Maximize the Mid-Year Peak
+   July generates the highest revenue (£618,448).
+   Marketing budgets and promotional campaigns
+   should be concentrated in Q2 to capitalize
+   on this mid-year buying surge.
 
-🎯 Objectives
+2. Prioritize Electronics Inventory
+   Electronics dominates both revenue and volume.
+   Inventory must ensure these products are
+   never out of stock — they are the primary
+   driver of the entire business performance.
 
-* Analyze sales
+3. Focus on West African Markets
+   Benin, Ghana and Togo are Top Markets
+   with the highest customer volume and revenue.
+   Supply chain and localized distribution hubs
+   should be optimized in these regions to
+   sustain and grow customer demand.
 
-* Identify the best-selling products
+4. Develop Growing Markets
+   France and Nigeria show strong potential
+   with 800K+ in revenue each. Targeted
+   campaigns in these markets could push
+   them into Top Market status.
 
-* Understand performance by country
+---
 
-* Create clear visualizations
+### SQL Skills Demonstrated
+- Multi-table JOIN (3 tables simultaneously)
+- Aggregate functions (SUM, COUNT)
+- CASE WHEN for market classification
+- Subqueries
+- TOP N analysis with LIMIT
+- Real business insights from 10,000+ records
 
-⸻
-
-🛠️ Tools used
-
-* SQL
-
-* Excel
-
-* Power BI
-
-* GitHub
-
-⸻
-
-🚀 Project status
-
-In development
+### Power BI & Excel Skills Demonstrated
+- Monthly revenue trend analysis
+- Category performance dashboard
+- Customer volume by country
+- Average order value calculation
