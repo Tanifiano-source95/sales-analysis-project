@@ -1,4 +1,4 @@
-## Project 06 - Sales Analysis (Team Project)
+## Project - Sales Analysis (Team Project)
 
 ### Team
 - Tanifiano Regis : SQL data analysis
